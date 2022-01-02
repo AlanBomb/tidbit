@@ -4,8 +4,8 @@ I'm uploading this because no one else seems to have uploaded the hex or source 
 
 This is intended to be used with an OLED relocation mounted horizontally to the top right as shown below. (note the mounting requires wiring as the pinouts aren't the same as if you were to mount the oled vertically over the microcontroller, see images below)
 
-![Diagram](right%20mount.png)
-![Working Image](oled%20mount.jpg)
+![Diagram](https://i.imgur.com/OlcSDRz.png)
+![Working Image](https://i.imgur.com/4m8wOdm.jpg)
 
 If you mounted it from a different location and it is flipped, change "OLED_ROTATION_90" to "OLED_ROTATION_270" in line 82 in keymap.c and recompile:
 
